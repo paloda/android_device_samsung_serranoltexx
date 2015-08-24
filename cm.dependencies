@@ -1,26 +1,56 @@
 [
+{
+    "remote": "github",
+    "repository": "paloda/android_device_samsung_serranoltexx",
+    "target_path": "device/samsung/serranoltexx",
+    "revision": "L"
+  },
   {
+    "remote": "github",
+    "repository": "paloda/android_device_samsung_serrano-common",
+    "target_path": "device/samsung/serrano-common",
+    "revision": "L"
+  },
+  {
+    "remote": "cm",
     "repository": "android_device_qcom_common",
-    "target_path": "device/qcom/common"
+    "target_path": "device/qcom/common",
+    "revision": "cm-12.1"
   },
   {
-    "repository": "android_device_samsung_qcom-common",
-    "target_path": "device/samsung/qcom-common"
+    "remote": "cm",
+    "repository": "android_device_samsung_qcom_common",
+    "target_path": "device/samsung/qcom/common",
+    "revision": "cm-12.1"
   },
   {
+    "remote": "cm",
+    "repository": "android_hardware_samsung",
+    "target_path": "device/hardware/samsung",
+    "revision": "cm-12.1"
+  },
+  {
+    "remote": "cm",
     "repository": "android_device_samsung_msm8930-common",
-    "target_path": "device/samsung/msm8930-common"
+    "target_path": "device/samsung/msm8930-common",
+    "revision": "cm-12.1"
   },
   {
-    "repository": "android_device_samsung_serrano-common",
-    "target_path": "device/samsung/serrano-common"
+    "remote": "github",
+    "repository": "F4k/f4ktion_kernel",
+    "target_path": "kernel/samsung/msm8930-common",
+    "revision": "lp-5.0"
   },
-  {
-    "repository": "android_kernel_samsung_msm8930-common",
-    "target_path": "kernel/samsung/msm8930-common"
-  },
-  {
+{
+    "remote": "cm",
     "repository": "android_hardware_qcom_fm",
-    "target_path": "hardware/qcom/fm"
+    "target_path": "hardware/qcom/fm",
+    "revision": "cm-12.1"
+  },
+  {
+    "remote": "tm",
+    "repository": "proprietary_vendor_samsung",
+    "target_path": "vendor/samsung",
+    "revision": "cm-12.1"
   }
 ]
